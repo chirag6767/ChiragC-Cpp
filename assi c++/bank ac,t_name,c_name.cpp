@@ -5,7 +5,7 @@ class Account
 {
   public:
     string c_name,t_name;
-	int ac_no;
+	long long ac_no;
 	Account()
 	{
 		c_name = "chirag sudra";
