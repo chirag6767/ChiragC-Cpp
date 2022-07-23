@@ -14,7 +14,7 @@ class Account
 	}
 	void display()
 	{
-		cout<<"============================"<<endl;
+		cout<<"=========================="<<endl;
 		cout<<"        HDFC BANK"<<endl<<endl;
 		cout<<"============================"<<endl;
 		cout<<"Bnak Holder Name : "<<c_name<<endl;
