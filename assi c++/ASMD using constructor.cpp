@@ -21,7 +21,7 @@ class ASMD
 		cout<<"Addition is       : "<<a+b<<endl<<endl;
 		cout<<"Subtrection is    : "<<a-b<<endl<<endl;
 		cout<<"Multiplication is : "<<a*b<<endl<<endl;
-    	cout<<"Division is       : "<<a/(float)b<<endl<<endl;	
+    	        cout<<"Division is       : "<<a/(float)b<<endl<<endl;	
 	}
 };
 int main()
