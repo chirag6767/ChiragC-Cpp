@@ -23,7 +23,8 @@
         }
         body 
         {
-            background-color: lawngreen;
+            background-image: url(image/spiderman.jpg);
+            /* background-color: lawngreen; */
             padding: 300px 200px 200px 300px;
             float: left;
             width: 100%;
@@ -45,13 +46,44 @@
             margin-left: 100px;
             margin-top: 50px;
         }
+
+        input
+        {
+            border: 0;
+            outline: none;
+            text-decoration: underline;
+            border-bottom: 2px solid blue;
+           
+            
+        }
+
+        button
+        {
+            cursor: pointer;
+
+            color: white; 
+            background-color: green; 
+            padding: 15px; 
+            font-size: medium; 
+            border-radius: 8px;
+        }
+        button:hover
+        {
+            
+
+            color: green; 
+            background-color: white; 
+            padding: 15px; 
+            font-size: medium; 
+            border-radius: 8px;
+        }
     </style>
 </head>
 
 <body>
     <div class="main">
         <div>
-            <img src="image/G-Mail.png" alt="G-mail">
+            <img src="image/spiderman.jpg" alt="spiderman">
         </div>
         <div class="two">
             <h2>  GET IN TOUCH </h2>
@@ -59,24 +91,17 @@
         
                 NAME
                 <br><br>
-                <hr size="2" color="blue" width="400px">
-                <placeholder="NAME" >
+                <input type="text" >
                 <br><br>
                 EMAIL
                 <br><br>
-                <hr size="2" color="blue">
-                <placeholder="EMAIl">
-                <br> <br>
+                <input type="email" >
+                <br><br>
                 NUMBER
-                <hr size="2" color="blue">
-                <placeholder="NUMBER">
-                <br> <br>
-                BIO
-                <hr size="2" color="blue">
-                <placeholder="BIO">
-                <br> <br>
-                <input type="button" align="center" value="Submit"
-                style="color: white; background-color: green; padding: 15px; font-size: medium; border-radius: 8px;">
+                <br><br>
+                <input type="M-number" >
+                <br><br>
+                <button>Submit</button>
             </form>
         </div>
     </div>
