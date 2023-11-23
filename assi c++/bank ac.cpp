@@ -9,7 +9,7 @@ class Account
 	
 	Account()
 	{
-		c_name = "chirag sudra";
+		c_name = "Kesha Patel";
 		ac_no  = 2346276589765;
 		t_name = "Saving Account";		
 	}
@@ -18,7 +18,7 @@ class Account
 		cout<<"==================================="<<endl;
 		cout<<"        HDFC BANK"<<endl;
 		cout<<"==================================="<<endl;
-        cout<<"Bnak Holder Name : "<<c_name<<endl;
+                cout<<"Bnak Holder Name : "<<c_name<<endl;
 		cout<<"Account Number   : "<<ac_no<<endl;
 		cout<<"Type Of Account  : "<<t_name<<endl<<endl<<endl;
 	}
@@ -28,7 +28,7 @@ class Account
 		cout<<"==================================="<<endl;
 		cout<<"        DEPOSIT AMOUNT"<<endl;
 		cout<<"==================================="<<endl;
-		cout<<"How Much Do You Want Amount To Deposit : ";
+		cout<<"How Much Amount Do You Want To Deposit : ";
 		cin>>da;
 		cout<<endl;
 		cbb = ba+da;
@@ -45,7 +45,7 @@ class Account
 		cout<<"==================================="<<endl;
 		cout<<"       WITHDRAW AMOUNT"<<endl;
 		cout<<"==================================="<<endl;
-		cout<<"How Much Do You Want Amount To Withdraw : ";
+		cout<<"How Much Amount Do You Want To Withdraw : ";
 		cin>>wd;
 		cout<<endl;
 		cbbw =cbb-wd;
