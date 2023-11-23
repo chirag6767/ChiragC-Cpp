@@ -11,7 +11,7 @@ class Account
 	{
 		c_name = "chirag sudra";
 		ac_no  = 2346276589765;
-		t_name = "saving Account";		
+		t_name = "Saving Account";		
 	}
 	void display()
 	{
