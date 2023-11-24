@@ -9,7 +9,7 @@ class Person
 	       
 	   Person()
 	   {
-	      member = "Chirag Sudra";
+	      member = "Sresha Patel ";
 		  age = 20;	
 	   }	   	
 };
