@@ -6,7 +6,7 @@ class ASMD
    public:
    	
 	int Addition, Subtrection, Multiplication, Division;
-	int a=20, b=10;
+	int a=50, b=40;
    	
 	ASMD()
 	{
