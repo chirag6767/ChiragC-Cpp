@@ -7,7 +7,7 @@ int main()
     char data[100];
 	int age;
 	ofstream of;
-	cout<<"Enter data : ";
+	cout<<"Enter Data : ";
 	cin.getline(data,100);
 	of<<data<<endl;
 	cout<<"Enter Age : ";
